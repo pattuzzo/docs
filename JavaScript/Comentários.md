@@ -34,7 +34,6 @@
   - Princípios para escrever comentários claros e concisos.
   - Evitar comentários redundantes e garantir que os comentários realmente ajudem na compreensão do código. -->
 
-
 ### 1. Introdução aos Comentários
 
 #### **Importância dos Comentários**
