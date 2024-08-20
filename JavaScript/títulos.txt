@@ -1,0 +1,76 @@
+Comentários (rever)
+Variáveis (rever)
+Escopo de Variáveis
+Operadores
+Controle de Fluxo (rever)
+Tratamento de Erros e Exceções (rever)
+Programação Assíncrona (rever)
+Módulos
+
+
+
+
+
+
+
+
+
+
+### Funções
+
+#### 1. Introdução às Funções
+   - **O que são Funções?**
+
+#### 2. Tipos de Funções
+   - **Função Literal**
+   - **Expressão de Função**
+   - **Função Dinâmica**
+
+#### 3. Declaração de Funções
+   - **Função Nomeada**
+   - **Expressões de Função**
+     - **Função Nomeada**
+     - **Função Anônima**
+     - **Função de Seta (Arrow Function)**
+     - **Função Autoinvocada (IIFE)**
+
+#### 4. Parâmetros e Argumentos
+   - **Parâmetros**
+     - **Parâmetros Opcionais**
+     - **Parâmetro Rest**
+     - **Desestruturação de Parâmetros**
+   - **Argumentos**
+     - **Passagem de Parâmetros**
+     - **Operador Spread**
+
+#### 5. Retorno da Função
+   - **Valor de Retorno**
+
+#### 6. Escopo de Função
+   - **Variáveis**
+   - **Closure**
+
+#### 7. Contexto `this` em Funções
+   - **Método `call`**
+   - **Método `apply`**
+   - **Método `bind`**
+
+#### 8. Pilha de Chamadas
+   - **O que é a Pilha de Chamadas?**
+
+#### 9. Objeto de Função
+   - **Propriedades de Função**
+     - **name**
+     - **length**
+   - **Objeto de Argumentos**
+     - **`arguments.length`**
+
+#### 10. Funcionalidades Avançadas
+   - **Recursividade**
+   - **Construtor de Objetos**
+   - **Funções de Ordem Superior**
+     - **Callbacks**
+     - **Currying**
+   - **Funções Geradoras**
+   - **Funções Assíncronas**
+   - **Decoradores**

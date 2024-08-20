@@ -1,0 +1,163 @@
+### Números
+
+#### 1. Introdução aos Números
+   - **O que é um Número em JavaScript?**
+     - Definição e importância dos números na linguagem.
+   - **Como JavaScript Manipula Números?**
+     - Visão geral de como JavaScript trata e opera com números.
+
+#### 2. Tipos de Números
+   - **Número Primitivo**
+     - Definição e uso básico.
+   - **Objeto Number**
+     - Criação e utilização do objeto `Number`.
+   - **Notação Exponencial**
+     - Como representar números grandes e pequenos com notação exponencial.
+   - **BigInt**
+     - Introdução ao tipo `BigInt` para números inteiros grandes.
+     - Diferença entre `BigInt` e `Number`.
+
+#### 3. Separador Numérico
+   - **Uso do Separador Numérico**
+     - Como utilizar o separador numérico em literais numéricos para melhorar a legibilidade.
+
+#### 4. Valores Especiais
+   - **Infinity**
+     - Significado e uso do valor `Infinity`.
+   - **NaN**
+     - Significado e tratamento do valor `NaN` (Not-a-Number).
+
+#### 5. Objeto Number
+   - **Propriedades**
+     - **EPSILON**
+       - Definição e uso de `Number.EPSILON`.
+     - **MIN_VALUE e MAX_VALUE**
+       - Limites de valores representáveis pelo tipo `Number`.
+     - **MIN_SAFE_INTEGER e MAX_SAFE_INTEGER**
+       - Limites de segurança para números inteiros precisos.
+     - **NEGATIVE_INFINITY e POSITIVE_INFINITY**
+       - Propriedades de `Infinity`.
+     - **NaN**
+       - Propriedade `NaN` e sua utilidade.
+   - **Métodos**
+     - **Verificação**
+       - **isInteger()**
+         - Verificar se um valor é um inteiro.
+       - **isSafeInteger()**
+         - Verificar se um valor é um inteiro seguro.
+       - **isNaN()**
+         - Verificar se um valor é `NaN`.
+       - **isFinite()**
+         - Verificar se um valor é um número finito.
+     - **Formatação**
+       - **toExponential()**
+         - Formatação em notação exponencial.
+       - **toFixed()**
+         - Formatação com um número fixo de casas decimais.
+       - **toPrecision()**
+         - Formatação com precisão específica.
+       - **toLocaleString()**
+         - Formatação com base nas configurações de localidade.
+     - **Conversão**
+       - **Number()**
+         - Conversão para o tipo `Number`.
+       - **parseInt()**
+         - Conversão de string para inteiro.
+       - **parseFloat()**
+         - Conversão de string para ponto flutuante.
+       - **valueOf()**
+         - Retornar o valor primitivo de um objeto `Number`.
+       - **toString()**
+         - Conversão de número para string.
+
+#### 6. Biblioteca Math
+   - **Propriedades**
+     - **E**
+       - Constante `Math.E`.
+     - **PI**
+       - Constante `Math.PI`.
+     - **SQRT2**
+       - Constante `Math.SQRT2`.
+     - **SQRT1_2**
+       - Constante `Math.SQRT1_2`.
+     - **LN2**
+       - Constante `Math.LN2`.
+     - **LN10**
+       - Constante `Math.LN10`.
+     - **LOG2E**
+       - Constante `Math.LOG2E`.
+     - **LOG10E**
+       - Constante `Math.LOG10E`.
+   - **Métodos**
+     - **Funções Exponenciais e Logarítmicas**
+       - **exp()**
+         - Calcular `e` elevado a um valor.
+       - **expm1()**
+         - Calcular `e` elevado a um valor menos 1.
+       - **log()**
+         - Logaritmo natural.
+       - **log10()**
+         - Logaritmo base 10.
+       - **log1p()**
+         - Logaritmo de `1 + x`.
+       - **log2()**
+         - Logaritmo base 2.
+     - **Funções de Potência e Raiz**
+       - **pow()**
+         - Potência de um número.
+       - **sqrt()**
+         - Raiz quadrada.
+       - **cbrt()**
+         - Raiz cúbica.
+     - **Funções de Arredondamento**
+       - **ceil()**
+         - Arredondar para cima.
+       - **floor()**
+         - Arredondar para baixo.
+       - **round()**
+         - Arredondar para o inteiro mais próximo.
+       - **trunc()**
+         - Truncar para um inteiro.
+       - **fround()**
+         - Arredondar para o número de precisão de 32 bits.
+     - **Funções Matemáticas Diversas**
+       - **abs()**
+         - Valor absoluto.
+       - **max()**
+         - Valor máximo.
+       - **min()**
+         - Valor mínimo.
+       - **random()**
+         - Gerar um número aleatório.
+     - **Funções Lógicas e Bitwise**
+       - **clz32()**
+         - Contar zeros à esquerda em uma representação de 32 bits.
+       - **sign()**
+         - Retornar o sinal de um número.
+     - **Funções Trigonométricas**
+       - **sin()**
+         - Seno.
+       - **cos()**
+         - Cosseno.
+       - **tan()**
+         - Tangente.
+       - **asin()**
+         - Arcoseno.
+       - **acos()**
+         - Arcocosseno.
+       - **atan()**
+         - Arcotangente.
+       - **atan2()**
+         - Arcotangente de dois valores.
+       - **sinh()**
+         - Seno hiperbólico.
+       - **cosh()**
+         - Cosseno hiperbólico.
+       - **tanh()**
+         - Tangente hiperbólica.
+       - **asinh()**
+         - Arcoseno hiperbólico.
+       - **acosh()**
+         - Arcocosseno hiperbólico.
+       - **atanh()**
+         - Arcotangente hiperbólica.
